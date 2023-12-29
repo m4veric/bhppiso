@@ -1,6 +1,5 @@
 node_modules
 src
 gulpfile.js
-index.html
 package-lock.json
 package.json
