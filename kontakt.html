@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <section class="offer">
+    <section class="contact">
         <nav class="nav-mobile">
     <a href="index.html" class="nav-mobile__item">Home</a>
     <a href="o-nas.html" class="nav-mobile__item">O nas</a>
@@ -32,37 +32,57 @@
         </button>
         <div class="section-image">
 
-            <h1 class="heading">Oferta</h1>
+            <h1 class="heading">Kontakt</h1>
         </div>
         <div class="wrapper">
-            <div class="offer__text-box section-padding section-margin">
-                <p class="offert__text text-style">BHP PISO to przedewszystkim profesjonaliści w zakresie bezpieczeństwa
-                    i higieny
-                    pracy. Obecnie oferujemy kompleksową obsługa przedsiębiorstw w zakresie BHP i P-POŻ.
-                </p>
-                <p class="offert__text text-style"> Dzialalności mogą powieżyć nam takie zadania jak opracowanie
-                    instrukcji
-                    stanowiskowych, sporządzanie dokumentacji powypadkowej, opracowanie instrukcji przeciwpożarowej oraz
-                    jej aktualizację , ochrony, ocenę ryzyka zawodowego oraz wiele więcej.
-                </p>
-                <p class="offert__text text-style">Zachęcamy do zapoznania sięz naszymi usługami. Państwa bezpieczeństwo
-                    jest
-                    naszym priorytetem</p>
+            <p class="contact__text">Jeżeli są Państwo zainteresowani szkoleniami z zakresu BHP lub mają Państwo
+                dodatkowe pytania, zapraszamy do skorzystania z formularza kontaktowego.
+            </p>
+            <div class="contact__container">
+                <div class="contact__info">
+                    <p class="contact__info-item">
+
+                        <a class="contact__link" href="tel: +48 607-363-356">
+
+                            <i class="ti ti-phone-call"></i>
+                        </a>
+                    </p>
+                    <p class="contact__info-item">
+                        <a class="contact__link" href="mailto: zespolmagnuslive@gmail.pl">
+                            <i class="ti ti-mail"></i>
+                        </a>
+                    </p>
+                </div>
+                <form class="contact__form-box" action="mail.php" method="post">
+                    <div class="contact__box ">
+                        <input type="text" id="name" name="name" required placeholder="Imię">
+                        <p class="contact__error-text">Podaj swoje imię</p>
+                    </div>
+                    <div class="contact__box">
+                        <input type="email" id="email" name="email" required placeholder="E-mail">
+                        <p class="contact__error-text">Podaj poprawny adres e-mail</p>
+                    </div>
+                    <div class="contact__box ">
+                        <textarea name="msg" id="msg" required placeholder="Wiadomość"></textarea>
+                        <p class="contact__error-text">Wprowadź treść wiadomości</p>
+                    </div>
+                    <div class="contact__check">
+                        <input type="checkbox" id="checkbox" class="contact__check-checkbox" required>
+                        <label for="checkbox">Zapoznałem się z polityką prywatności</label>
+                        <p class="contact__error-text">Zaznacz wymagane zgody</p>
+                    </div>
+                    <button class="contact__btn">Wyślij</button>
+                    <div class="contact__popup">
+                        <p class="contact__popup-text">Formularz został poprawnie wysłany!</p>
+                    </div>
+                </form>
+
             </div>
-            <div class="offer__img-container">
-                <div class="offer__img-box">
-                    <img class="offer__img" src="./dist/img/training-small.jpg" alt="">
-                    <a href="" class="offer__img-title">Szkolenia</a>
-                </div>
-                <div class="offer__img-box">
-                    <img class="offer__img" src="./dist/img/fire-small.jpg" alt="">
-                    <a href="" class="offer__img-title">P-POŻ</a>
-                </div>
-                <div class="offer__img-box">
-                    <img class="offer__img" src="./dist/img/first-aid-small.jpg" alt="">
-                    <a href="" class="offer__img-title">Pierwsza pomoc przedmedyczna</a>
-                </div>
-            </div>
+        </div>
+
+
+
+
         </div>
     </section>
 
