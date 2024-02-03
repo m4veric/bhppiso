@@ -3,8 +3,8 @@
 $name = $_POST["name"];
 $from = $_POST["email"]; 
 $subject = "Wiadomość z formularza na stronie Zespół Magnus Live";
-$to = "zespolmagnuslive@gmail.com"; 
-// dodać maila
+$to = "miedzinski_bhp@wp.pl"; 
+
 $message = $_POST["msg"]; 
 
 $txt = "Imię: " . $name . "\r\n" . "Email: " . $from . "\r\n" . "\r\n" . "Treść: " . $message;
