@@ -12,6 +12,8 @@ Ih this project I use HTML, CSS and Vanilla JavaScript.
 
 For hamburger icon for mobile navbar I use very helpful project from [jonsuh.com](https://jonsuh.com/hamburgers/).
 
+I use icons from [tabler.io](https://tabler.io/icons)
+
 ## Status 02.01.2024 :hourglass_flowing_sand:
 
 Site has three done subpages: Home, About us and Contact.
