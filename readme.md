@@ -2,7 +2,7 @@
 
 Acctualy I create website for client from safety and health business.
 
-You can see it [here](https://m4veric.github.io/bhppiso/).
+You can see it [here](https://bhppiso.pl/).
 
 It will simple websites with four subpages: Home, About us, Offer and Contact. In subpage "Offer" will be next three subpages with offer description.
 
